@@ -8,8 +8,8 @@
 import Foundation
 
 public final class Chronometer: NSObject {
-	private var timer: Timer?
-	private var timeInterval: TimeInterval = 1.0
+	public var timer: Timer?
+	public var timeInterval: TimeInterval = 1.0
 
 	public var isPlaying = false
 	public var timerCurrentValue: TimeInterval = 0.0
